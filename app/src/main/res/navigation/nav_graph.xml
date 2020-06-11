@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/actionheadlineScreen"
-        android:name="com.example.byju.ui.fragment.HeadlineScreen"
+        android:name="com.example.byju.ui.fragment.HeadlineScreenFragment"
         android:label="headline_screen"
         tools:layout="@layout/fragment_headline_screen" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/actionnewsDetailsScreen"
-        android:name="com.example.byju.ui.fragment.NewsDetailsScreen"
+        android:name="com.example.byju.ui.fragment.NewsDetailsScreenFragment"
         android:label="newsDetailsScreen"
         tools:layout="@layout/fragment_news_details_screen" >
         <action

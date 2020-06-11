@@ -4,7 +4,7 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import java.io.Serializable
-import java.util.*
+
 
 @Entity(tableName = "newsdata")
 data class NewsData(
@@ -21,7 +21,7 @@ data class NewsData(
     @ColumnInfo(name = "url_to_image")
     val urlToImage : String,
     @ColumnInfo(name = "published_at")
-    val publishedAt : Date,
+    val publishedAt : String,
     @ColumnInfo(name = "content")
     val content: String
 ): Serializable {
